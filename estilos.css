@@ -72,8 +72,8 @@ body
     background-color: rgb(97, 27, 27);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 300px;
+    margin-right: 20px;
     margin-top: 0px;
  }
 
@@ -128,3 +128,5 @@ table{
 p{ 
     color:black;
 }
+
+
