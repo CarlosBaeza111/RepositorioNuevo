@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="../estilos.css">
+		<title>Página no accesible</title>
 	</head>
 
 	<body> 
@@ -18,7 +19,6 @@
 			  <a href="../Sobrenosotros/sobrenosotros.html">Sobre nosotros</a>
 			  <a href="../mapasitioweb/mapa.html">Mapa de la página web</a>					
 		</div>
-		<main>
 			<h1>Página no accesible</h1>
 			<article>
 			En esta página encontrarás diferentes elementos que no cumplen las características de un sitio web accesible
@@ -27,7 +27,7 @@
             
             <p>Esta imagen no contiene ningun texto alternativo, es necesario que lo tenga ya que necesita una descripción y no es una imagen decorativa</p>
 
-            <img src="balloons-1761634_1920.jpg" height="100" width="200"/>
+            <img src="balloons-1761634_1920.jpg" height="100" width="200" alt=""/>
 
             <h2>2 enlaces con el mismo nombre</h2>
             
@@ -36,10 +36,6 @@
             <a href="../Articulo2/p_art2.html"> artículo completo</a> 
             <br>
             <a href="../Articulo1/p_art1.html"> artículo completo</a>
-
-            <h2>Páginas sin título</h2>
-
-            <p>Esta página no contiene título y con el reconocimiento de voz no se sabe en que página te encuentras</p>
 
             <h2>Títulos y encabezados</h2>
 
@@ -55,12 +51,36 @@
             <p>Acné<br>
             Bronquitis<br>
             Celulitis<br>
-            </p>
+			</p>
+			
+			<h2>Titulos en tablas</h2>
+			<div class="centrar"> <p>Comunidad Valenciana</p></div>
+			<table class="egt">
+                <tr>
+                    <th scope="row">Provincia</th>
+                    <th>Casos</th>
+                    <th>Recuperados</th>
+                    <th>Fallecidos</th>
 
+                </tr>
+                <tr>
+                    <th>Alicante</th>
+                    <td>16.258</td>
+                    <td>2.411</td>
+                    <td>325</td>
+                </tr>
+            
+                <tr>
+                    <th>Valencia</th>
+                    <td>27.659</td>
+                    <td>7.225</td>
+                    <td>1.486</td>
+                </tr>
+			</table>
             </article>
 		</main>
 		<div class="footer">
 			<footer>Enciclopedia de salud <br> Javier López <br> Carlos Baeza</footer>
-			</div>
+		</div>
 	</body>
 </html>
